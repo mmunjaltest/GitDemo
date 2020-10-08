@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="tests">
+  <test name="Homepage of QAclick Academy(failed)" parallel="tests">
+    <classes>
+      <class name="Academy.HomePage">
+        <methods>
+          <include name="intiliaze"/>
+          <include name="getURL" invocation-numbers="1"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.HomePage -->
+      <class name="Academy.ValidateNavigatonBar">
+        <methods>
+          <include name="intiliaze"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.ValidateNavigatonBar -->
+      <class name="Academy.ValidateTitle">
+        <methods>
+          <include name="intiliaze"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.ValidateTitle -->
+    </classes>
+  </test> <!-- Homepage of QAclick Academy(failed) -->
+</suite> <!-- Failed suite [Suite] -->
