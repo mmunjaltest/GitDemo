@@ -41,7 +41,7 @@ public class HomePage extends Base{
 		
 		Thread.sleep(5000);
 		lp.loginButton().click();
-		log.info("homepage test is successfull");
+		log.info("homepage test is successfullll");
 }
 	
 	@AfterTest
