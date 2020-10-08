@@ -29,7 +29,7 @@ public class HomePage extends Base{
 	@Test(dataProvider="getData")
 	public void getURL(String Usrname,String Password) throws IOException, InterruptedException {
 		
-		Thread.sleep(15000);
+		Thread.sleep(16000);
 		driver.findElement(By.xpath("//*[text()='NO THANKS']")).click();
 		
 		LoginPage obj = new LoginPage(driver);
